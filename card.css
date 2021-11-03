@@ -11,7 +11,7 @@ body {
     border-radius: 5%;
 }
 .cardbody img {
-    border: 1px dotted black;
+    border: 1px solid black;
     padding: 2%;
     margin: 2%;
     width: 90%;
@@ -22,8 +22,6 @@ body {
 .card {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
 }
 h3 {
     color: lightblue;
@@ -50,6 +48,49 @@ button {
         text-align: center;
         width: 90%;
         border-radius: 5%;
+        font-size: 30px;
+    }
+    .cardbody img {
+        border: 1px dotted black;
+        padding: 2%;
+        margin: 2%;
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto ;
+    }
+    .card {
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    h3 {
+        color: lightblue;
+    }
+    s {
+        color: lightgray;
+    }
+    button {
+        padding: 2%;
+        background-color: green;
+        color: white;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+    body {
+        background-color: lavender;
+    }
+    
+    .cardbody {
+        border: 2px solid black;
+        padding: 1%;
+        margin:  1%;
+        text-align: center;
+        width: 90%;
+        border-radius: 5%;
     }
     .cardbody img {
         border: 1px dotted black;
@@ -64,7 +105,6 @@ button {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: center;
     }
     h3 {
         color: lightblue;
@@ -76,5 +116,17 @@ button {
         padding: 2%;
         background-color: green;
         color: white;
+    }
+    .cardbody{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    
+    .cardbody div {
+        display: block;
+        margin-right:  auto;
+        margin-top:  auto;
+        margin-bottom:  auto;
     }
 }
