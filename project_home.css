@@ -1,0 +1,13 @@
+body {
+  background-color: wheat;
+}
+/* basic styling on cards */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cardbody {
+  border: 2px solid black;
+  margin: 2%;
+  padding: 2%;
+}
