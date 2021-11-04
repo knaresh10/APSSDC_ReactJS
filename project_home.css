@@ -1,13 +1,26 @@
 body {
-  background-color: wheat;
+  background-color: #e2e0d4;
 }
 /* basic styling on cards */
 .cards {
   display: flex;
   flex-wrap: wrap;
+  height: 100vh;
 }
 .cardbody {
   border: 2px solid black;
   margin: 2%;
   padding: 2%;
+  border-radius: 4px;
+  text-align: center;
+}
+.cardbody:hover {
+  background-color: #e8e8e8;
+  transition: 1s;
+}
+
+.cardbody img {
+  border: 1px solid black;
+  padding: 1%;
+  border-radius: 4px;
 }
