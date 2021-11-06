@@ -25,11 +25,13 @@ h1 to h6, p
 span, img, input
 > **attribute** content in an opening tag of element
 #### Icon website
--[flaticon](https://www.flaticon.com/)
+- [flaticon](https://www.flaticon.com/)
 - [fontawesome](https://fontawesome.com/)
-** Website to check color contrast [webaim](https://webaim.org/resources/contrastchecker/)
+
+
+** Website to check color contrast** [webaim](https://webaim.org/resources/contrastchecker/)
 #### SVG Img websites
--[freesvg](https://freesvg.org/)
+- [freesvg](https://freesvg.org/)
 
 `./` is used to link the files with in the present directory
 
