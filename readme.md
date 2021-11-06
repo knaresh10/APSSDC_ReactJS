@@ -21,7 +21,7 @@ html
 header,section, article footer 
 ##### Block level elements 
 h1 to h6, p 
-###### Inline elements  
+##### Inline elements  
 span, img, input
 > **attribute** content in an opening tag of element
 #### Icon website
@@ -29,7 +29,7 @@ span, img, input
 - [fontawesome](https://fontawesome.com/)
 
 
-** Website to check color contrast** [webaim](https://webaim.org/resources/contrastchecker/)
+**Website to check color contrast** [webaim](https://webaim.org/resources/contrastchecker/)
 #### SVG Img websites
 - [freesvg](https://freesvg.org/)
 
