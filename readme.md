@@ -8,7 +8,7 @@
     - PHP
     - PYTHON
  -------------
-# HTML 
+## HTML 
 html
     : HyperText Markup Language
 #### Advantages 
@@ -35,9 +35,76 @@ span, img, input
 
 `./` is used to link the files with in the present directory
 
+--------------
+
+--------------
 
 
-# readJS
+## css 
+: Cascading Style Sheets
+css is used for 
+- font
+- color
+- spacing
+- layout
+
+
+types of css
+- inline
+- internal
+- external
+
+
+*inline css* - is done within the element using style attribute
+*internal css* - is done within the head element using style tag
+*external css* - is done using an external css file which is connected to the html file using link
+
+syntax for internal and external css
+
+```css
+selector {
+	css-property : value;
+}
+
+```
+
+
+when two or more types of css applied on same selector then following css is applied in the following order  >  inline >internal > external
+
+#### types of selectors 
+- tag/element
+- class
+- id
+- universal
+
+###### tag/element selector 
+tags like h1 , p , img are directly used as selectors in css
+to apply same css to two or more tags we can simple group the tags
+ using ","
+
+
+###### class selector 
+css can also be applied by taking class of an element as select
+a class can access css using .class_name
+when two class are used for a tag last mentioned class is taken into consideration
+
+
+###### id selector
+
+a id can access css using "#id_name"
+
+
+###### universal selector 
+universal selector is * it used to apply css to each and every element in html 
+
+responsive - webdesign
+
+viewport 
+flexbox
+media-queries
+
+
+## readJS
 
 + It is a Library
 + It support JSX (Javascript and XML)
