@@ -28,8 +28,9 @@
     ></script>
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <!-- navigation links  -->
+
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Navbar</a>
         <button
@@ -92,17 +93,29 @@
 
       <!-- navigation close  -->
 
+      <!-- Carousel  -->
       <div
-        id="carouselExampleSlidesOnly"
+        id="carouselExampleIndicators"
         class="carousel slide"
         data-ride="carousel"
       >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
               src="./aranprime-OWYPuzseTG4-unsplash.jpg"
               class="d-block w-100"
               alt="..."
+              width="1302px"
+              height="550px"
             />
           </div>
           <div class="carousel-item">
@@ -110,6 +123,8 @@
               src="./josh-mccausland-8xnzdAKloSo-unsplash.jpg"
               class="d-block w-100"
               alt="..."
+              width="1302px"
+              height="550px"
             />
           </div>
           <div class="carousel-item">
@@ -117,10 +132,101 @@
               src="./josh-mccausland-rP-U8f1KGRM-unsplash.jpg"
               class="d-block w-100"
               alt="..."
+              width="1302px"
+              height="550px"
             />
           </div>
         </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-target="#carouselExampleIndicators"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-target="#carouselExampleIndicators"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
       </div>
+      <!-- Carousel closing  -->
+
+      <!-- cards  -->
+
+      <div class="card-deck mt-5">
+        <div class="card" style="width: 18rem">
+          <img
+            src="./aranprime-OWYPuzseTG4-unsplash.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img
+            src="./josh-mccausland-8xnzdAKloSo-unsplash.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img
+            src="./josh-mccausland-rP-U8f1KGRM-unsplash.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img
+            src="./aranprime-OWYPuzseTG4-unsplash.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body bg-gradient-warning">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text text-info">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- cards closing  -->
     </div>
   </body>
 </html>
