@@ -99,9 +99,11 @@ universal selector is * it used to apply css to each and every element in html
 
 responsive - webdesign
 
-viewport 
-flexbox
-media-queries
+responsiveness of a web-page can be acheived using
+
+- viewport 
+- flexbox
+- media-queries
 
 
 ## readJS
