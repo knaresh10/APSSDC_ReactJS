@@ -1,12 +1,12 @@
 # **web development**
 ### *Front-End technology*
-    + HTML
-    + CSS
-    + JS
+    - HTML
+    - CSS
+    - JS
 ### *Back-End technology*
-    + JAVA
-    + PHP
-    + PYTHON
+    - JAVA
+    - PHP
+    - PYTHON
  -------------
 # HTML 
 html
