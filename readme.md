@@ -1,7 +1,9 @@
 # HTML 
 html
     : HyperText Markup Language
-
+#### Advantages 
++ In **html** we have default codes and its simple to create web-application
++ it can easily interact with CSS, Angular, Js
 # readJS
 
 + It is a Library
