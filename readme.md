@@ -1,6 +1,6 @@
 # HTML 
 html
-: HyperText Markup Language
+    : HyperText Markup Language
 
 # readJS
 
